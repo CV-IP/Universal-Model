@@ -1,5 +1,8 @@
 ### Fine-tune Universal Model on your own target task
 
+Universal Model is a transferable and generalizable pre-trained model for 3D medical image analysis, which can be utilized to initialize the encoder for the target classification tasks and to initialize the encoder-decoder for the target segmentation tasks.  
+The 3D deep model can be initialized with the pre-trained model as following:
+
 ```python
 base_model = unet3d.UNet3D()
 
