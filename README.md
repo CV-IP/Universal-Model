@@ -7,7 +7,7 @@ The 3D deep model can be initialized with the pre-trained model as following:
 base_model = unet3d.UNet3D()
 
 #Load pre-trained model
-model_dir = 'pretrained_weights/Genesis_Chest_CT.pt'
+model_dir = '../Universal_model.pt'
 checkpoint = torch.load(model_dir)
 state_dict = checkpoint['state_dict']
 unParalled_state_dict = {}
