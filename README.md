@@ -16,3 +16,8 @@ for key in state_dict.keys():
 base_model.load_state_dict(unParalled_state_dict)
 ```
 
+**Paper**. 
+
+This repository provides the usage of the pre-trained Universal Model in the following paper:
+##Universal Model for 3D Medical Image Analysis
+\href{https://arxiv.org/abs/2010.06107}{https://arxiv.org/abs/2010.06107}.
